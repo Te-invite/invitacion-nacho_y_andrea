@@ -1,86 +1,95 @@
-/* color palette from <https://github.com/vuejs/theme> */
-:root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+:root{
+  --color__background:white;
+  --line__buttom:#A9ABAE;
+  --color_font_btn:#A9ABAE;
+  --color-icon:#B1C3A2;
+  --color__font_primary:#000000A8;
+  --color_icon:#000000;
+  --color__font_sencondary:#A9ABAE;
+  --family__font_primary:'Display-bold-italic', sans-serif;
+  --family__font_secondary:'Display-regular', sans-serif;
+  --font__text:'Montserrat', sans-serif;
+  --font-light:#ffffff;
+  --font-size-12:.75rem;
+  --font-size-16:1rem;
+  --font-size-18:1.125rem;
+  --font-size-24:1.5rem;
+  --font-size-28:1.75rem;
+  --font-size-32:2rem;
+  --font-size-36:2.25rem;
+  --font-size-42:2.625rem;
+  --font-size-64:4rem;
+  --font-size-76:4.75rem;
 
-  --vt-c-indigo: #2c3e50;
+}
+@font-face {
+  font-family: 'Display-black';
+  src: url('./font/PlayfairDisplay-Black.otf') format('opentype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Display-bold';
+  src: url('./font/PlayfairDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Display-bold-italic';
+  src: url('./font/PlayfairDisplay-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Display-regular';
+  src: url('./font/PlayfairDisplay-Regular.otf') format('opentype');
+  
+}
+@font-face {
+  font-family: 'Displaysc-bold';
+  src: url('./font/PlayfairDisplaySC-Bold.otf') format('opentype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Displaysc-regular';
+  src: url('./font/PlayfairDisplaySC-Regular.otf') format('opentype');
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
-
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+@font-face {
+  font-family: 'DisplaySC-Italic';
+  src: url('./font/PlayfairDisplaySC-Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('./font/PlayfairDisplay-Italic.otf') format('opentype');
 }
 
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+*{
   margin: 0;
-  font-weight: normal;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  height: 100vh;
+  
+}
+html {
+  scroll-behavior: smooth;
 }
 
-body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Estilo del scrollbar*/
+::-webkit-scrollbar {
+  width: .5rem;
+  background-color: var(--color__font_primary);
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color_font_btn);
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color__background);
+}
+

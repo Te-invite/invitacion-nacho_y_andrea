@@ -1,14 +1,7 @@
-# invitacion-nacho_y_andrea
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# create invitacion-nacho_y_andrea
+```
+npm create vue@latest invitacion-nacho_y_andrea
+```
 
 ## Project Setup
 
@@ -26,4 +19,8 @@ npm run dev
 
 ```sh
 npm run build
+```
+### Sweetalert
+```
+npm install sweetalert2
 ```
