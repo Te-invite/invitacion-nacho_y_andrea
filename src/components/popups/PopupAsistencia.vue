@@ -1,7 +1,7 @@
 <script>
-import Boton from './Boton.vue';
+import Boton from '../Boton.vue';
 import PopupBase from './PopupBase.vue';
-import IconParty from './icon/IconParty.vue';
+import IconParty from '../icon/IconParty.vue';
 import Swal from 'sweetalert2';
 
 export default {

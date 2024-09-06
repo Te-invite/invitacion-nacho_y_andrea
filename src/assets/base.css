@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 :root{
   --color__background:white;
@@ -7,9 +10,9 @@
   --color-icon:#B1C3A2;
   --color__font_primary:#000000A8;
   --color_icon:#000000;
+  --font_family_principal:'Playfair Display', serif;
+  --font_family_second:'Playfair Display SC', serif;
   --color__font_sencondary:#A9ABAE;
-  --family__font_primary:'Display-bold-italic', sans-serif;
-  --family__font_secondary:'Display-regular', sans-serif;
   --font__text:'Montserrat', sans-serif;
   --font-light:#ffffff;
   --font-size-12:.75rem;
@@ -22,46 +25,8 @@
   --font-size-42:2.625rem;
   --font-size-64:4rem;
   --font-size-76:4.75rem;
+}
 
-}
-@font-face {
-  font-family: 'Display-black';
-  src: url('./font/PlayfairDisplay-Black.otf') format('opentype');
-  font-weight: 900;
-}
-@font-face {
-  font-family: 'Display-bold';
-  src: url('./font/PlayfairDisplay-Bold.otf') format('opentype');
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Display-bold-italic';
-  src: url('./font/PlayfairDisplay-BoldItalic.otf') format('opentype');
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Display-regular';
-  src: url('./font/PlayfairDisplay-Regular.otf') format('opentype');
-  
-}
-@font-face {
-  font-family: 'Displaysc-bold';
-  src: url('./font/PlayfairDisplaySC-Bold.otf') format('opentype');
-  font-weight: 100;
-}
-@font-face {
-  font-family: 'Displaysc-regular';
-  src: url('./font/PlayfairDisplaySC-Regular.otf') format('opentype');
-
-}
-@font-face {
-  font-family: 'DisplaySC-Italic';
-  src: url('./font/PlayfairDisplaySC-Italic.otf') format('opentype');
-}
-@font-face {
-  font-family: 'PlayfairDisplay-Italic';
-  src: url('./font/PlayfairDisplay-Italic.otf') format('opentype');
-}
 
 *{
   margin: 0;

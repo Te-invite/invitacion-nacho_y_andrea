@@ -1,7 +1,7 @@
 <script>
-import IconCeremonia from './icon/IconCeremonia.vue';
-import Boton from './Boton.vue';
-import PopupLocalizacion from './PopupLocalizacion.vue';
+import IconCeremonia from '../icon/IconCeremonia.vue';
+import Boton from '../Boton.vue';
+import PopupLocalizacion from '../popups/PopupLocalizacion.vue';
 export default{
     name:'SectionLugar',
     data(){
@@ -55,18 +55,21 @@ export default{
     align-items: center;
 }
 .title_section_lugar{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-32);
-    font-weight: 700;
+    font-size: var(--font-size-36);
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 .detalle_lugar{
-    font-family: PlayfairDisplay-Italic;
+    font-family: var(--font_family_principal);
     color:var(--color__font_sencondary);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     text-align: center;
-    font-weight: 200;
+    font-weight:400;
+    font-style: italic;
+    line-height: 100%;
 }
 .detalle2_lugar{
     font-family: var(--family__font_secondary);

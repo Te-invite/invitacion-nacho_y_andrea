@@ -1,6 +1,6 @@
 <script>
-import IconMusic from './icon/IconMusic.vue';
-import Boton from './Boton.vue';
+import IconMusic from '../icon/IconMusic.vue';
+import Boton from '../Boton.vue';
 import Swal from 'sweetalert2';
 export default {
     name: 'SectionMusic',
@@ -96,19 +96,22 @@ export default {
 }
 
 .title_section_music{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color: var(--family__font_primary);
-    font-size: var(--font-size-32);
-    font-weight: 400;
+    font-size: var(--font-size-36);
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 
 .detalle_music {
-    font-family: Monsterrat;
+    font-family: var(--font_family_principal);
     color: var(--color__font_primary);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     text-align: center;
-    font-weight: 200;
+    font-weight:400;
+    font-style: italic;
+    text-align: center;
 }
 
 .asistencia_description {

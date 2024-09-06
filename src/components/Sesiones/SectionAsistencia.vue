@@ -1,8 +1,8 @@
 <script>
-import PopupAsistencia from './PopupAsistencia.vue';
-import PopupLocalizacion from './PopupLocalizacion.vue';
-import IconFiesta from './icon/IconFiesta.vue';
-import Boton from './Boton.vue';
+import PopupAsistencia from '../popups/PopupAsistencia.vue';
+import PopupLocalizacion from '../popups/PopupLocalizacion.vue';
+import IconFiesta from '../icon/IconFiesta.vue';
+import Boton from '../Boton.vue';
 export default{
     name:'SectionAsistencia',
     data(){
@@ -66,18 +66,21 @@ export default{
     align-items: center;
 }
 .title_section_asistencia{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-32);
-    font-weight: 700;
+    font-size: var(--font-size-36);
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 .detalle_asistencia{
-    font-family: PlayfairDisplay-Italic;
+    font-family: var(--font_family_principal);
     color:var(--color__font_sencondary);
-    font-size: var(--font-size-18);
     text-align: center;
-    font-weight: 100;
+    font-size: var(--font-size-16);
+    font-weight:400;
+    font-style: italic;
+    line-height: 100%;
 }
 .asistencia_description{
     width:80%;

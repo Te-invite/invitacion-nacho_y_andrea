@@ -1,6 +1,6 @@
 <script>
-import ComillaApertura from './icon/ComillaApertura.vue';
-import ComillaCierre from './icon/ComillaCierre.vue';
+import ComillaApertura from '../icon/ComillaApertura.vue';
+import ComillaCierre from '../icon/ComillaCierre.vue';
 export default {
     name: 'SectionMensaje',
     components: {

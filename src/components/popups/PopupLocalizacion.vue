@@ -1,7 +1,7 @@
 <script>
-import IconLocation from './icon/IconLocation.vue';
+import IconLocation from '../icon/IconLocation.vue';
 import PopupBase from './PopupBase.vue';
-import Boton from './Boton.vue';
+import Boton from '../Boton.vue';
 export default {
     components: { 
         PopupBase,

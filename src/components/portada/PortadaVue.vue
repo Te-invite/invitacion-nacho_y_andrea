@@ -72,18 +72,21 @@ export default {
 }
 
 .title__portada {
-    font-family: var(--family__font_primary);
+    font-family:Playfair Display;
     color: var(--color__font_primary);
     font-size: var(--font-size-42);
     line-height: 140%;
     text-align: center;
+    font-weight: 600;
+    font-style: italic;
 }
 .subtitle_portada{
-    font-family: var(--family__font_primary);
-    color: var(--color__font_sencondary);
+    font-family: Playfair Display;
+    color: var(--color_font_btn);
     font-size: var(--font-size-6);
     line-height: 20px;
     text-align: center;
+    font-weight: 600;
 }
 .portada__conteiner_button {
     width: 100%;

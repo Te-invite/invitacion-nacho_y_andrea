@@ -50,16 +50,18 @@ export default{
 }
 
 .title__cartel {
-    font-family: Displaysc-regular;
+    font-family: Playfair Display SC;
     font-weight:400;
+    font-style: normal;
     font-size: var(--font-size-32);
     color: #1E1E1E;
 }
 
 .subtitle__cartel {
-    font-family: var(--family__font_secondary);
+    font-family:Playfair Display SC;
     font-weight: 400;
     font-size: 20px;
+    font-style: normal;
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .title__cartel {

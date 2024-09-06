@@ -1,5 +1,5 @@
 <script>
-import IconTarjeta from './icon/IconTarjeta.vue';
+import IconTarjeta from '../icon/IconTarjeta.vue';
 export default{
     name:'SectionTarjeta',
     data(){
@@ -39,6 +39,7 @@ export default{
     align-items: center;
     width:100%;
     margin-top:3.5rem;
+    margin-bottom: 1rem;
 }
 .asistencia_content{
     display: flex;
@@ -47,18 +48,23 @@ export default{
     align-items: center;
 }
 .title_section_tarjeta{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-32);
-    font-weight: 700;
+    font-size: var(--font-size-36);
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 .detalle_tarjeta{
-    font-family: Monsterrat;
+    font-family: var(--font_family_principal);
     color:var(--color__font_sencondary);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
+    text-align: center;
+    font-weight:400;
+    font-style: normal;
     text-align: center;
     line-height: 100%;
+    margin:0;
 }
 .asistencia_description{
     width:80%;

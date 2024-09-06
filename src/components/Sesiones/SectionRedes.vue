@@ -1,7 +1,7 @@
 <script>
 import Swal from 'sweetalert2';
-import IconInstagram from './icon/IconInstagram.vue';
-import Boton from './Boton.vue';
+import IconInstagram from '../icon/IconInstagram.vue';
+import Boton from '../Boton.vue';
 export default {
     name:'SectionRedes',
     data() {
@@ -72,19 +72,21 @@ export default {
     align-items: center;
 }
 .title_section_insta{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color:var(--family__font_primary);
     font-size: var(--font-size-24);
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 .detalle_insta{
-    font-family: var(--family__font_secondary);
+    font-family:  var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
+    font-style: italic;
 }
 .detalle2_insta{
     font-family: var(--family__font_secondary);

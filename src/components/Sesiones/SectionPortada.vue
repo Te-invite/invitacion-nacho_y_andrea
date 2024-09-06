@@ -1,5 +1,5 @@
 <script>
-import Cartel from './icon/Cartel.vue';
+import Cartel from '../icon/Cartel.vue';
 import foto01 from '@/assets/img/foto_01.png'
 
 export default {
@@ -25,8 +25,6 @@ export default {
                 <div class="overlay"></div>
             </div>
             <div class="section_portada_title">
-                <!-- <h1 class="title__section">{{ title }}</h1>
-                <h2 class="subtitle__section">{{ subtitle }}</h2> -->
             </div>
             <Cartel class="cartel"/>
         </div>

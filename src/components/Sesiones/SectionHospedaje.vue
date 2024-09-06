@@ -1,5 +1,5 @@
 <script>
-import Card from './Card.vue';
+import Card from '../Card.vue';
 import IconHospedaje from './icon/IconHospedaje.vue';
 
 export default {

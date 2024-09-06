@@ -87,6 +87,7 @@ export default {
         </section>
         
         <section class="counter__container">
+
             <div class="counter__content dia">
                 {{ displayDays }}
                 <span class="counter__label">{{ d }}</span>
@@ -124,8 +125,9 @@ export default {
 .counter__txt{
     font-size: var(--font-size-24);
     color: var( --color__font_primary);
-    font-family: var(--family__font_primary);
-    font-weight: 800;
+    font-family: var(--font_family_principal);
+    font-weight: 400;
+    font-style: italic;
     text-align: center;
     
 }
@@ -134,42 +136,38 @@ export default {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: 70%;
-    height:100%;
-    font-family: DisplaySC-Italic;/*numeros */
-    font-weight: 700;
+    font-family: var(--font_family_principal);/*numeros */
+    font-weight: 400;
+    font-style: normal;
     color:var( --color__font_primary);
-    font-size:var(--font-size-24);
-    line-height: 80%;
-    
-    
+    font-size:var(--font-size-32);
+    line-height: 100%;
 }
 
 .counter__content {/*... */
-    width: 50px;
-    height:70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:.5rem 2rem;
-    border-radius: 50px;
-    border:1px solid var(--color__font_sencondary);
-    
 }
 
 .dia,
 .hora,
-.minuto {
-    margin:0 .5rem;
-   
+.minuto,
+.segundos{
+    width:75px;
+    height:75px;/*tamaño del circulo */
+    border-radius: 50%;
+    border:1px solid var(--color__font_sencondary);
+    margin-right:.5rem;
 }
 
 .counter__label {
-    font-size: 11px;
+    font-size: var(--font-size-12);
     color: var(--color__font_primary);
-    font-family: DisplaySC-Italic;/*detalle de abajo*/
-    font-weight: 300;
+    font-family: var(--font_family_principal);/*detalle de abajo*/
+    font-weight: 400;
+    font-style: italic;
     margin-top: 11px;/*... */
     text-align: center;
 }

@@ -1,8 +1,8 @@
 <script>
 import PopupBase from './PopupBase.vue';
 import Swal from 'sweetalert2';
-import IconGift from './icon/IconGift.vue';
-import Boton from './Boton.vue';
+import IconGift from '../icon/IconGift.vue';
+import Boton from '../Boton.vue';
 
 export default {
     name: 'CardBancario',

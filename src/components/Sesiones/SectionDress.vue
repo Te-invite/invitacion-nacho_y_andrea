@@ -1,5 +1,5 @@
 <script>
-import IconDress from './icon/IconDress.vue';
+import IconDress from '../icon/IconDress.vue';
 export default{
     name:'SectionDress',
     data(){
@@ -40,18 +40,21 @@ export default{
     align-items: center;
 }
 .title_section_dress{
-    font-family: var(--family__font_primary);
+    font-family: var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-32);
-    font-weight: 400;
+    font-size: var(--font-size-36);
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 1rem;
 }
 .detalle_dress{
-    font-family: Monsterrat;
+    font-family: var(--font_family_principal);
     color:var(--color__font_primary);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     text-align: center;
-    font-weight: 200;
+    font-weight:400;
+    font-style: italic;
+    text-align: center;
 }
 .asistencia_description{
     width:80%;

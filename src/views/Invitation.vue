@@ -1,20 +1,20 @@
 <script>
-import SectionPortada from '@/components/SectionPortada.vue';
+import SectionPortada from '@/components/Sesiones/SectionPortada.vue';
 import Cuadrante from '@/components/timer/Cuadrante.vue';
 import IconFlorRight1 from '@/components/icon/IconFlorRight1.vue';
 import IconFlor2 from '@/components/icon/IconFlor2.vue';
 import IconFlorBottom from '@/components/icon/IconFlorBottom.vue';
 import IconFlorLeft from '@/components/icon/IconFlorLeft.vue';
-import SectionMensaje from '@/components/SectionMensaje.vue';
-import SectionAsistencia from '@/components/SectionAsistencia.vue';
-import SectionLugarVue from '@/components/SectionLugar.vue.vue';
-import SectionDress from '@/components/SectionDress.vue';
-import SectionGift from '@/components/SectionGift.vue';
-import SectionMusic from '@/components/SectionMusic.vue';
+import SectionMensaje from '@/components/Sesiones/SectionMensaje.vue';
+import SectionAsistencia from '@/components/Sesiones/SectionAsistencia.vue';
+import SectionLugarVue from '@/components/Sesiones/SectionLugar.vue.vue';
+import SectionDress from '@/components/Sesiones/SectionDress.vue';
+import SectionGift from '@/components/Sesiones/SectionGift.vue';
+import SectionMusic from '@/components/Sesiones/SectionMusic.vue';
 import Carrousel from '@/components/Carrousel.vue';
-import SectionRedes from '@/components/SectionRedes.vue';
-import SectionFooter from '@/components/SectionFooter.vue';
-import SectionTarjeta from '@/components/SectionTarjeta.vue';
+import SectionRedes from '@/components/Sesiones/SectionRedes.vue';
+import SectionFooter from '@/components/Sesiones/SectionFooter.vue';
+import SectionTarjeta from '@/components/Sesiones/SectionTarjeta.vue';
 import IconFlorTop from '@/components/icon/IconFlorTop.vue';
 
 export default {
