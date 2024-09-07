@@ -27,7 +27,6 @@ export default{
     .container__cuadrante{
         width:500px;
         height:350px;
-        border:1px solid red;
     }
 
 }
@@ -36,7 +35,6 @@ export default{
         width:100%;
         height:auto;
         margin-top:170px;
-        border:1px solid red;
     }
 }
 </style>

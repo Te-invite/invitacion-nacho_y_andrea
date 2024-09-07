@@ -47,4 +47,10 @@
     width:300px; 
     height:100%;
 }
+@media (min-width: 1025px) {
+    #flower2{
+        width:700px; 
+        height:auto;
+    }
+}
 </style>

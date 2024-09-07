@@ -1,20 +1,24 @@
 <script>
-import foto1 from '@/assets/img/1ff956fe.png';
-// import foto2 from '@/assets/img/DSC_4770.jpg';
-// import foto3 from '@/assets/img/DSC_4786.jpg';
-// import foto4 from '@/assets/img/DSC_4796.jpg';
-// import foto5 from '@/assets/img/DSC_4811.jpg';
-// import foto6 from '@/assets/img/DSC_4835.jpg';
-// import foto7 from '@/assets/img/DSC_4840.jpg';
-// import foto8 from '@/assets/img/DSC_4842.jpg';
+import foto1 from '@/assets/img/foto002.png';
+import foto2  from '@/assets/img/foto003.png';
+import foto3 from '@/assets/img/foto004.png';
+import foto4 from '@/assets/img/foto005.png';
+import foto5 from '@/assets/img/foto006.png';
+import foto6 from '@/assets/img/foto007.png';
+import foto7 from '@/assets/img/foto008.png';
 
 
 export default {
   name: 'Carrousel',
   data() {
     return {
-      foto1
-
+      foto1,
+      foto2,
+      foto3,
+      foto4,
+      foto5,
+      foto6,
+      foto7
     }
   }
 }
@@ -27,7 +31,7 @@ export default {
       <div class="carousel-item active">
         <img :src="foto1" class="d-block w-100" alt="...">
       </div>
-      <!-- <div class="carousel-item">
+      <div class="carousel-item">
         <img :src="foto2" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
@@ -45,9 +49,6 @@ export default {
       <div class="carousel-item">
         <img :src="foto7" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item">
-        <img :src="foto8" class="d-block w-100" alt="...">
-      </div> -->
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

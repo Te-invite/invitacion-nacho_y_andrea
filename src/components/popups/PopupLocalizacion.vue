@@ -11,8 +11,8 @@ export default {
     data() {
         return {
         infoBtn: '¿CÓMO LLEGAR?',
-        modalTitle: 'Cómo llegar a la Fiesta',
-        mapUrl:'https://maps.app.goo.gl/RVNysZz6pGnucmy19'
+        modalTitle: 'Cómo llegar a la ceremonia',
+        mapUrl:'https://maps.app.goo.gl/fmpYruZ6k7LVyYcq8'
         };
     }, 
     methods:{
@@ -31,7 +31,7 @@ export default {
         </template>
         <div class="modal-body">
             <div class="map-container">
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42496.49952629916!2d-60.319885!3d-38.3587795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95926c3863aa9643%3A0x7f10a0f45aea89a5!2sSociedad%20Rural%20de%20Tres%20Arroyos!5e1!3m2!1ses-419!2sar!4v1725227875974!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d678246.9104413688!2d-60.5786714!3d-37.9798081!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9593addc32e18ad1%3A0xbd4e54ed0bcf17f7!2sParroquia%20Nuestra%20Se%C3%B1ora%20de%20Luj%C3%A1n!5e1!3m2!1ses-419!2sar!4v1725685904320!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <template #footer>
@@ -66,7 +66,7 @@ export default {
 
 .map{
     width:260px;
-    height:auto;
+    height:250px;
 }
 @media(max-width:320px) {   
     

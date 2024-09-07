@@ -71,4 +71,10 @@
     width:350px; 
     height:100%;
 }
+@media (min-width: 1025px) {
+    #flowerTop{
+        width:550px; 
+        height:auto;
+    }
+}
 </style>

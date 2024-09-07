@@ -195,6 +195,14 @@ export default {
     .counter__txt{
         font-size: var(--font-size-32);
     }
+    .dia,
+    .hora,
+    .minuto,
+    .segundos{
+        width:90px;
+        height:90px;
+        margin-right:1rem;
+    }
 }
 @media (min-width: 1025px) {
     .container{
@@ -217,6 +225,13 @@ export default {
     }
     .counter__label {
         font-size: var(--font-size-18);
+    }
+    .dia,
+    .hora,
+    .minuto,
+    .segundos{
+        width:110px;
+        height:110px;
     }
 }
 </style>

@@ -1,6 +1,6 @@
 <script>
 import PopupAsistencia from '../popups/PopupAsistencia.vue';
-import PopupLocalizacion from '../popups/PopupLocalizacion.vue';
+import PopupLocalizacionFiesta from '../popups/PopupLocalizacionFiesta.vue';
 import IconFiesta from '../icon/IconFiesta.vue';
 import Boton from '../Boton.vue';
 export default{
@@ -10,23 +10,26 @@ export default{
             title:'Fiesta',
             text:'Los esperamos en el Salón del Club. A. Agrario a las 21:30 hs.',
             popup:false,
-            popup_:false
-            
+            popup_:false,
+            showPopupAsistencia:false,
+            showPopLocalizacion:false            
         }
     },
     components:{
         IconFiesta ,
         Boton,
         PopupAsistencia,
-        PopupLocalizacion
+        PopupLocalizacionFiesta
     },
     methods: {
-        togglePopUp(){
-            this.popup = !this.popup
-        },
-        togglePopUp2(){
-            this.popup_ = !this.popup_
-        }         
+        togglePopUp(popupType){
+            if(popupType === 'asistencia'){
+                this.showPopupAsistencia = !this.showPopupAsistencia;
+            }else if(popupType === 'localizacion'){
+                this.showPopLocalizacion =!this.showPopLocalizacion;
+            }
+
+        }        
     }
 }
 </script>
@@ -40,12 +43,12 @@ export default{
             <p class="detalle_asistencia">{{ text }}</p>
         </div>
         <div class="container__button">
-            <PopupAsistencia v-show="popup" @close="togglePopUp()"/>
-            <Boton label="CONFIRMAR ASISTENCIA" customClass="btn-mayor" @click="togglePopUp()"/>
+            <PopupAsistencia v-show="showPopupAsistencia" @close="togglePopUp('asistencia')"/>
+            <Boton label="CONFIRMAR ASISTENCIA" customClass="btn-mayor" @click="togglePopUp('asistencia')"/>
         </div>
         <div class="container__button2">
-            <PopupLocalizacion v-show="popup_" @close="togglePopUp2()"/>
-            <Boton label="¿COMO LLEGAR?" customClass="btn-mayor" @click="togglePopUp()"/>
+            <PopupLocalizacionFiesta v-show="showPopLocalizacion" @close="togglePopUp('localizacion')"/>
+            <Boton label="¿COMO LLEGAR?" customClass="btn-mayor" @click="togglePopUp('localizacion')"/>
         </div>      
         
     </div>

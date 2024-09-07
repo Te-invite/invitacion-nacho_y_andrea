@@ -56,4 +56,11 @@
     width:100%; 
     height:300px;
 }
+
+@media (min-width: 1025px) {
+    #flower1{
+        width:100%; 
+        height:900px;
+    }
+}
 </style>

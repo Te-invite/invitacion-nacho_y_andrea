@@ -1,5 +1,5 @@
 <script>
-
+import { inject } from 'vue';
 import Boton from '../Boton.vue';
 
 export default {
@@ -16,13 +16,20 @@ export default {
             
         }
     },
-    methods:{
-        enterInvitation(){
-                this.$router.push({
-                    name: 'Invitation'
-                });
-        }
+    setup() {
+    const audioController = inject('audioController');
+    return { audioController };
+  },
+    methods: {
+    enterWithMusic() {
+      this.audioController.play();
+      this.$router.push({ name: 'Invitation' });
+    },
+    enterWithoutMusic() {
+      this.audioController.stop();
+      this.$router.push({ name: 'Invitation' });
     }
+  }  
 }
 </script>
 <template>
@@ -36,9 +43,9 @@ export default {
             </span>
         </div>
         <div class="portada_content_buttom">
-            <Boton label="INGRESAR CON MUSICA" customClass="btn-mayor btn_ingreso" @click="enterInvitation"/>
+            <Boton label="INGRESAR CON MUSICA" customClass="btn-mayor btn_ingreso" @click="enterWithMusic"/>
             
-            <Boton label="INGRESAR SIN MUSICA" customClass="btn-mayor" @click="enterInvitation"/>
+            <Boton label="INGRESAR SIN MUSICA" customClass="btn-mayor" @click="enterWithoutMusic"/>
 
         </div>
     </div>

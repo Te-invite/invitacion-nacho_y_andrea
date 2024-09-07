@@ -70,4 +70,10 @@
     width:350px; 
     height:100%;
 }
+@media (min-width: 1025px) {
+    #flowerb{
+        width:auto; 
+        height:600px;
+    }
+}
 </style>

@@ -36,12 +36,12 @@ export default {
 .instagram{
     width: 60px;
     height: 60px;
-    stroke: black;
+    stroke: #8A8484;
     stroke-width: 3;
     fill:white;
   }
   .instagram #vector_2{
-    fill: black;
+    fill: #8A8484;
   }
   
   #circulo {
@@ -50,8 +50,8 @@ export default {
   }
   
   @keyframes fillCircle {
-    0% { fill: black; }
-    50% { fill: black; }
+    0% { fill: #8A8484; }
+    50% { fill: #8A8484; }
     100% { fill: none; }
   }
   
@@ -77,7 +77,7 @@ export default {
   } 
   #like1, #like2{
     stroke-width: 1;
-    fill: black;
+    fill: #8A8484;
   
   }
   

@@ -14,9 +14,11 @@ export default {
     data() {
         return {
             title: 'Regalos',
-            name: 'Florencia Von Saldern',
-            cvu: ' 0140334103620552661732',
-            alias: 'CLAVEL.PIOLA.TITULO'
+            name: 'Andrea Gisele Maldonado',
+            cvu: '0000003100041451523496',
+            alias: '123boda',
+            cuit:'27300259710',
+            cuenta:'Mercado de Pago'
         }
     },
     methods: {
@@ -58,6 +60,14 @@ export default {
             <span class="block__text">
                 <h3 class="title__section">ALIAS:</h3>
                 <p class="text__section">{{ alias }}</p>
+            </span>
+            <span class="block__text">
+                <h3 class="title__section">CUIT/CUIL:</h3>
+                <p class="text__section">{{ cuit }}</p>
+            </span>
+            <span class="block__text">
+                <h3 class="title__section">CUENTA:</h3>
+                <p class="text__section">{{ cuenta }}</p>
             </span>
         </div>
         <div class="pop-up-footer">

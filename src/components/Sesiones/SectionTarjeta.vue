@@ -16,7 +16,7 @@ export default{
 }
 </script>
 <template>
-    <div id="asistencia" class="tarjeta__conteiner container">
+    <div id="tarjeta" class="tarjeta__conteiner container">
         <div class="asistencia_content">
             <IconTarjeta/>
             <h1 class="title_section_tarjeta">{{ title }}</h1>

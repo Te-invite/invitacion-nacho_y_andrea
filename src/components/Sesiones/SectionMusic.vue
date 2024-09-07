@@ -97,7 +97,7 @@ export default {
 
 .title_section_music{
     font-family: var(--font_family_principal);
-    color: var(--family__font_primary);
+    color: var(--color__font_primary);
     font-size: var(--font-size-36);
     font-weight: 600;
     font-style: italic;

@@ -53,6 +53,7 @@ export default {
     padding:40px;
     border-radius:9px;
     width:90%;
+    height:550px;
     box-shadow: var(--shadow);
     transition:all 250ms ease-in-out;
 }
@@ -86,23 +87,23 @@ export default {
 }
 .pop-up-body{
     width: 100%;
-    height:100%;
+    height:90%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:center ;
 }
-
 .title {
-    font-family: Higuen;
+    font-family: var(--font_family_principal);
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--color__font_sencondary);
     text-align: center;
-    margin:1rem 0;
+    margin:.5rem 0;
 }
 .pop-up-footer{
     width:100%;
+
     display: flex;
     justify-content:center;
 }

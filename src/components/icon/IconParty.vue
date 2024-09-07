@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .party{
-    fill: var(--color-icon);
+    fill: #8A8484;
     text-align: center;
     width:60px;
     height:60px;
@@ -70,12 +70,12 @@ svg {
 .base,
 .circulo,
 .start{
-  fill: var( --color-icon);
+  fill: #8A8484;
 }
 .linea,
 .linea1,
 .punto{
-  stroke:var( --color-icon);
+  stroke:#8A8484;
 }
 .linea,
 .linea1,

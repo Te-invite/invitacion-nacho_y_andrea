@@ -8,7 +8,7 @@ export default {
         return {
             title: 'Los momentos mágicos merecen ser compartidos con personas especiales.',
             subtitle: 'Compartí tus fotos y videos de ese hermoso día, usando el hashtag',
-            hastag: '#',
+            hastag: '#nachoyandre',
 
         }
     },
@@ -89,10 +89,11 @@ export default {
     font-style: italic;
 }
 .detalle2_insta{
-    font-family: var(--family__font_secondary);
+    font-family:  --font_family_principal;
     color:var(--color__font_primary);
-    font-size: var(--font-size-12);
+    font-size: var(--font-size-16);
     text-align: center;
+    font-style:italic;
     font-weight: 200;
 }
 .asistencia_description{
