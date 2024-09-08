@@ -82,7 +82,7 @@ export default {
 }
 .detalle_insta{
     font-family:  var(--font_family_principal);
-    color:var(--color__font_primary);
+    color:var(--color__font_sencondary);
     font-size: var(--font-size-16);
     text-align: center;
     font-weight: 300;
@@ -101,25 +101,25 @@ export default {
     height:100%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .title_section_lugar{
+    .title_section_insta{
         font-size: var(--font-size-42);
     }
-    .detalle_lugar{
+    .detalle_insta{
         font-size: var(--font-size-24);
     }
-    .detalle2_lugar{
+    .detalle2_insta{
         font-size: var(--font-size-18);
     }
 
 }
 @media (min-width: 1025px) {
-    .title_section_lugar{
+    .title_section_insta{
         font-size: var(--font-size-64);
     }
-    .detalle_lugar{
+    .detalle2_insta{
         font-size: var(--font-size-28);
     }
-    .detalle2_lugar{
+    .detalle_insta{
         font-size: var(--font-size-28);
     }
 }

@@ -9,7 +9,7 @@ export default {
             <p class="dev1">Develop by</p>
             
             <a href="https://www.instagram.com/teinviteok/" target="_blank" rel="noopener noreferrer">
-                <p class="dev2">Teinvite.io</p>
+                <p class="dev2">teinvite.ar</p>
             </a>
         </div>
     </div>

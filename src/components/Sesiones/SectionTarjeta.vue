@@ -61,9 +61,8 @@ export default{
     font-size: var(--font-size-16);
     text-align: center;
     font-weight:400;
-    font-style: normal;
+    font-style: italic;
     text-align: center;
-    line-height: 100%;
     margin:0;
 }
 .asistencia_description{
@@ -74,11 +73,8 @@ export default{
     .title_section_asistencia{
         font-size: var(--font-size-42);
     }
-    .detalle_asistencia{
+    .detalle_tarjeta{
         font-size: var(--font-size-24);
-    }
-    .detalle_asistencia3{
-    font-size: var(--font-size-18);
     }
 
 }
@@ -86,11 +82,8 @@ export default{
     .title_section_asistencia{
         font-size: var(--font-size-64);
     }
-    .detalle_asistencia{
-        font-size: var(--font-size-24);
-    }
-    .detalle_asistencia3{
-    font-size: var(--font-size-16);
+    .detalle_tarjeta{
+        font-size: var(--font-size-28);
     }
 }
 </style>

@@ -64,7 +64,7 @@ export default{
 }
 .detalle_gift{
     font-family:  var(--font_family_principal);
-    color:var(--color__font_primary);
+    color:var(--color__font_sencondary);
     font-size: var(--font-size-16);
     text-align: center;
     font-weight:400;
@@ -78,7 +78,7 @@ export default{
 @media (min-width: 768px) and (max-width: 991px) {
     .title_section_gift{
         font-size: var(--font-size-42);
-    }
+    }-color__font_primary
     .detalle_gift{
         font-size: var(--font-size-24);
     }
@@ -88,7 +88,7 @@ export default{
         font-size: var(--font-size-64);
     }
     .detalle_gift{
-        font-size: var(--font-size-24);
+        font-size: var(--font-size-28);
     }
 }
 </style>

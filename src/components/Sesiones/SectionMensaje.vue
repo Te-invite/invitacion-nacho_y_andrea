@@ -63,17 +63,19 @@ export default {
     height: 300px;
 }
 .mensaje__txt{
-    color:var(--color__font_primary);
-    font-size: var(--font-size-12);
-    font-family: Montserrat;
+    font-family: var(--font_family_principal);
+    color:var(--color__font_sencondary);
+    font-size: var(--font-size-16);
     text-align: center;
-    margin: 0;
+    font-weight:400;
+    font-style: italic;
+    text-align: center;
+    margin:0;
 }
-.mensaje comillas{
+.mensaje_comillas{
     position:relative;
     width: 100%;
-    height:80%;
-    border:1px solid blue;
+    height:90%;
 }
 .comilla1,
 .comilla2{
@@ -81,12 +83,12 @@ export default {
     left: 50%;
 }
 .comilla1{
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     top:0;
 }
 .comilla2{
     bottom:0;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .mensaje_container {

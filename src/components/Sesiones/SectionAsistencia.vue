@@ -109,10 +109,10 @@ export default{
         font-size: var(--font-size-64);
     }
     .detalle_asistencia{
-        font-size: var(--font-size-24);
+        font-size: var(--font-size-28);
     }
     .detalle_asistencia3{
-    font-size: var(--font-size-16);
+        font-size: var(--font-size-28);
     }
 }
 </style>

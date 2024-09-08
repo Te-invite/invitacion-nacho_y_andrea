@@ -142,6 +142,7 @@ export default {
     color:var( --color__font_primary);
     font-size:var(--font-size-32);
     line-height: 100%;
+    
 }
 
 .counter__content {/*... */
@@ -149,17 +150,21 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border:1px solid red;
+    width:75px;
+    height:75px;
 }
 
 .dia,
 .hora,
 .minuto,
 .segundos{
-    width:75px;
-    height:75px;/*tamaño del circulo */
+    /*tamaño del circulo */
+    padding-top:.5rem;
     border-radius: 50%;
     border:1px solid var(--color__font_sencondary);
     margin-right:.5rem;
+    
 }
 
 .counter__label {
@@ -168,7 +173,6 @@ export default {
     font-family: var(--font_family_principal);/*detalle de abajo*/
     font-weight: 400;
     font-style: italic;
-    margin-top: 11px;/*... */
     text-align: center;
 }
 @media (min-width: 768px) and (max-width: 991px){

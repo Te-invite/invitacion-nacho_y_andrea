@@ -232,10 +232,11 @@ export default {
 }
 
 .flower_right2 {
-    right: -20px;
+    right: -25px;
     bottom: -100px;
     width: auto;
     height: 100%;
+    
 }
 
 .flower_left1 {
@@ -246,7 +247,7 @@ export default {
 }
 
 .flower_bottom {
-    right: 0px;
+    right: -30px;
     top: 60%;
     height: 80%;
 }
